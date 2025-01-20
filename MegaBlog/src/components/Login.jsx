@@ -41,7 +41,7 @@ function Login() {
          <p className="mt-2 text-center text-base text-black/60"> 
            Dont have any account ?
            <Link to="/signup" className="font-medium text-primary transition-all duration-200 hover:underline">
-           Signup
+           SignIn
            </Link>
          </p>
          {error && <p className="text-red-600 mt-8 text-center">
